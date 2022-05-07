@@ -622,7 +622,6 @@ footer {
         display: flex;
         justify-content: flex-end;
         box-shadow: none;
-        color: var(--main-font);
     }
 
     .menu-btn {
@@ -658,8 +657,7 @@ footer {
 
     #heti-menu button:hover {
         color: white;
-        font-size: 1.5rem;
-        font-weight: 200;
+        font-size: 1.4rem;
         background-color: var(--btn-clr);
     }
 
@@ -672,6 +670,7 @@ footer {
         padding: 0.5rem 0.7rem;
         font-size: 1rem;
         white-space: nowrap;
+        color: var(--main-font);
     }
 
     .menu-btn a:hover {
