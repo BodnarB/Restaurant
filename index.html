@@ -212,7 +212,6 @@
                         </div>
                         <button type="submit">Rendelés küldése >></button>
                     </div>
-
                     <div class="heti-text">
                         <p>Az áraink az áfát tartalmazzák és forintban értendők!</p>
                         <p>Az ár- és étlapváltoztatás jogát fenntartjuk!</p>
@@ -224,7 +223,6 @@
         <section id="etlap">
             <div class="max-width">
                 <h2>Étlap</h2>
-
                 <div class="etlap-navbar">
                     <label for="eloetel-toggle">Előétel</label>
                     <label for="leves-toggle">Levesek</label>
@@ -434,6 +432,16 @@
                     <label>Telefonszám *<input type="tel" name="tel" required></label>
                     <label>E-mail cím <input type="email" name="email"></label>
                     <label>Időpont *<input type="datetime-local" name="datum" required></label>
+                    <label>Vendégek száma <select name="vendegek_szama">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select></label>
                     <label>Megjegyzés<textarea name="uzenet"></textarea></label>
                     <button type="submit">Küldés</button>
                 </form>
