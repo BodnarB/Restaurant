@@ -569,6 +569,10 @@ footer {
 
 @media (min-width: 768px) {
 
+    .up-ikon {
+        display: none;
+    }
+
     section:not(:first-child) {
         padding: 3rem 0;
     }
