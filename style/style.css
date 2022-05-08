@@ -260,7 +260,7 @@ h3 {
 
 .heti-menu-form {
     display: none;
-    background-color: #ffffff;
+    background-color: var(--main-bg);
     color: black;
     border-radius: 0.2rem;
     max-width: 95%;
@@ -459,6 +459,11 @@ h3 {
 .icon {
     max-width: 17px;
     margin: 0 0.2rem;
+}
+
+.kapcsolat-container svg {
+    fill: var(--btn-clr);
+    width: 25px;
 }
 
 .rendeles-tel {
@@ -786,15 +791,20 @@ footer {
         margin: 1.5rem 0 2rem;
     }
 
+    .kapcsolat-container svg {
+        width: 30px;
+        margin: 0.5rem;
+    }
+
     .kapcsolat-box {
         border: none;
         margin: 0.5rem 1.5rem;
         font-weight: 500;
+        width: 226px;
     }
 
-    .kapcsolat-box img {
-        width: 30px;
-        margin: 1rem;
+    .facebook a {
+        display: inherit;
     }
 
     iframe {
