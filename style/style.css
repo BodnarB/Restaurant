@@ -27,6 +27,25 @@ img {
     color: rgb(255, 255, 255);
 }
 
+.up-ikon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--btn-clr);
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+.up-ikon svg {
+    width: 40px;
+    fill: rgba(255, 255, 255, 0.7);
+    display: block;
+    margin: auto;
+    transform: rotate(180deg);
+}
+
 section:not(:first-child) {
     padding: 1.5rem 0;
 }
