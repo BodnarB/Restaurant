@@ -697,7 +697,7 @@ footer {
     .heti-menu-form {
         box-shadow: inset 0 0 5px black;
         padding: 1rem 0.5rem;
-        margin: 1rem;
+        margin-top: 2rem;
         border-radius: 0.2rem;
     }
 
