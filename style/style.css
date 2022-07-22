@@ -54,8 +54,8 @@ header {
     z-index: 9;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0.5rem 0;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
     position: static;
     width: 100%;
     background-color: var(--main-bg);
@@ -173,10 +173,11 @@ input:focus, textarea:focus {
 .nyito-box {
     position: relative;
     background-color: black;
+    background: linear-gradient(180deg, rgb(0 0 0) 60%, #815558 100%);
 }
 
 .nyito-box img {
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 #home {
@@ -205,19 +206,15 @@ input:focus, textarea:focus {
 
 #home h1 {
     width: 100%;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     font-family: 'Courgette', cursive;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 0;
     z-index: 8;
-    color: rgba(245, 245, 245, 1);
+    color: rgb(235, 235, 235);
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-    background-color: rgb(129 85 88 / 40%);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    padding: 0.9rem;
-    margin: 0;
+    padding: 0 1rem;
     text-align: center;
 }
 
@@ -755,7 +752,7 @@ footer {
     }
 
     #rolunk {
-        padding: 1rem 1.2rem;
+        padding: 2rem 1.2rem;
     }
 
     .heti-menu {
@@ -879,6 +876,7 @@ footer {
     .rolunk-masodikresz  {
         display: flex;
         align-items: center;
+        flex-direction: row-reverse;
     }
 
     #rolunk img {
