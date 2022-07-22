@@ -469,6 +469,10 @@ select {
     text-align: right;
 }
 
+.slide-container {
+    display: none;
+}
+
 .szallit-img {
     display: none;
 }
@@ -592,7 +596,6 @@ footer {
 
 }
 
-
 @media (min-width: 768px) {
 
     .up-ikon {
@@ -713,7 +716,7 @@ footer {
         padding: 1rem 0.5rem;
         margin: 3rem auto;
         border-radius: 1rem;
-        color: whitesmoke;
+        color: #f5f5f5;
         max-width: 95%;
         background-position: bottom;
     }
@@ -847,6 +850,43 @@ footer {
         padding: 1rem 5rem;
     }
 
+    section.slideshow {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .arrow {
+        filter: drop-shadow(0px 0px 4px #000000);
+        position: absolute;
+        top: 40%;
+    }
+
+    .arrow.back {
+        left: 3%;
+    }
+
+    .arrow.forward {
+        right: 3%;
+    }
+
+    .slide-container {
+        display: flex;
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
+
+    .slide-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .slide-pic {
+        height: 25vh;
+        width: auto;
+        display: inline;
+    }
+
     .szallit-img {
         display: block;
         max-width: 45%;
@@ -920,7 +960,6 @@ footer {
         margin: 1rem;
         max-height: 350px;
     }
-
 
     .nyito-box img {
         height: 57vh;

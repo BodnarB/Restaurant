@@ -42,7 +42,6 @@
             </ul>
         </nav>
     </header>
-
     <main>
         <section id="home">
             <div class="nyito-box">
@@ -71,7 +70,6 @@
                 </div>
             </div>
         </section>
-
         <section id="heti-menu" class="bg-mas">
             <div class="max-width">
                 <h2>Heti menü</h2>
@@ -114,7 +112,6 @@
                                         max="5">db
                                 </div>
                             </div>
-
                             <div class="napi-menu-tetel">
                                 <div class="nev-ar"><label for="H-foetel-B">B.) Tenkes szelet, hasábburgonya</label>
                                     <p>1350 Ft</p>
@@ -240,7 +237,6 @@
                 </form>
             </div>
         </section>
-
         <section id="etlap">
             <div class="max-width">
                 <h2>Étlap</h2>
@@ -386,7 +382,23 @@
                 </div>
             </div>
         </section>
+        <section class="slideshow">
 
+            <div class="slide-container">
+                <img class="arrow back js-back" src="./imgs/arrow_back_ios_black_24dp.svg" alt="">
+                <img class="arrow forward js-forward" src="./imgs/arrow_forward_ios_black_24dp.svg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (1).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (2).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (3).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (4).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (5).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (6).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (7).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (8).jpg" alt="">
+                <img class="slide-pic" src="./imgs/slide01 (9).jpg" alt="">
+            </div>
+
+        </section>
         <section id="hazhozszallitas" class="bg-mas">
             <div class="max-width">
                 <h2>Házhozszállítás</h2>
@@ -414,7 +426,6 @@
                 </div>
             </div>
         </section>
-
         <section id="kapcsolat">
             <div class="max-width">
                 <h2>Kapcsolat</h2>
@@ -492,14 +503,12 @@
                                 <option value="8">8</option>
                             </select></label>
                         <label>Megjegyzés<textarea name="uzenet"></textarea></label>
-
                         <button type="submit">Küldés</button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
-
     <footer>
         <ul class="footer-menu">
             <li class="menu-btn"><a href="#home">Főoldal</a></li>
@@ -510,7 +519,18 @@
         </ul>
         <p> Lorem Étterem és Pizzéria &copy; 2022</p>
     </footer>
+    <script>
+        let arrow = document.querySelector(".js-forward");
+        let arrowback = document.querySelector(".js-back");
 
+        arrow.onclick = function () {
+            document.querySelector(".slide-container").scrollLeft += 400;
+        };
+
+        arrowback.onclick = function () {
+            document.querySelector(".slide-container").scrollLeft -= 400;
+        };
+    </script>
 </body>
 
 </html>
