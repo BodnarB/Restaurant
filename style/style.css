@@ -711,7 +711,7 @@ footer {
 
     .heti-menu-form {
         box-shadow: 0 0 5px black;
-        background: linear-gradient(180deg, #815558bd 10%, rgba(0, 0, 0, 0.65) 100%), url(../imgs/weeklybg.jpeg);
+        background: linear-gradient(180deg, rgba(129, 85, 88, 0.95) 0%, rgba(0, 0, 0, 0.5) 100%), url(../imgs/weeklybg.jpeg);
         background-size: cover;
         padding: 1rem 0.5rem;
         margin: 3rem auto;
