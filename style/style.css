@@ -722,7 +722,7 @@ footer {
     }
 
     .heti-menu-form input {
-        background-color: #f4d7d9e6;
+        background-color: #f3e8e9e6;
     }
 
     #heti-menu button:hover {
@@ -826,6 +826,7 @@ footer {
         box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
         background: #ececec21;
         backdrop-filter: blur(2px);
+        border: 1px solid rgba(255, 255, 255, 0.144);
     }
 
     .megrendelo-adatai label {
