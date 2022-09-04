@@ -264,16 +264,24 @@ textarea:focus {
     padding: 1.2rem 0;
     font-size: 1.2rem;
     text-align: center;
-    background-color: #d7a8ab;
-    color: #361719;
     outline: 1px solid #815558;
     outline-offset: -9px;
     width: 420px;
     max-width: 85%;
+    background-color: #271011;
+    color: #ffffff;
 }
 
 .heti-toggle-label img {
     margin: 0 0.5rem;
+}
+
+
+.heti-toggle-label:hover {
+    cursor: pointer;
+    background-color: #2b2323;
+    box-shadow: none;
+    transition-duration: 0.4s;
 }
 
 .heti-menu {
@@ -342,8 +350,9 @@ select {
     padding: 0.4rem;
     border: none;
     width: 100%;
-    box-shadow: 0 0 5px #00000025;
+    box-shadow: 0 0 5px #00000011;
     border-radius: 0.3rem;
+    border: 1px solid #81555883;
 }
 
 #heti-menu button {
@@ -588,6 +597,11 @@ footer {
     color: rgb(228, 228, 228);
 }
 
+.footer-menu .menu-btn a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 6px black;
+}
+
 @media (min-width: 576px) {
 
     #home h1 {
@@ -710,12 +724,12 @@ footer {
     }
 
     .heti-menu-form {
-        box-shadow: 0 0 5px black;
+        box-shadow: inset 0px -20px 20px rgba(0, 0, 0, 0.603);
         background: linear-gradient(180deg, rgba(129, 85, 88, 0.9) 0%, rgba(0, 0, 0, 0.5) 100%), url(../imgs/weeklybg.jpg);
         background-size: cover;
         padding: 1rem 0.5rem;
-        margin: 3rem auto;
-        border-radius: 1rem;
+        margin: 0rem auto 1rem;
+        border-radius: 0 0 1rem 1rem;
         color: #f5f5f5;
         max-width: 95%;
         background-position: bottom;
@@ -808,15 +822,15 @@ footer {
     }
 
     .heti-toggle-label {
-        max-width: 420px;
+        width: 100%;
+        border-radius: 1rem ;
+        max-width: 95%;
+        margin: 0 auto;
+        outline: none;
     }
 
-    .heti-toggle-label:hover {
-        cursor: pointer;
-        background-color: var(--main-bg);
-        color: #361719;
-        box-shadow: none;
-        transition-duration: 0.7s;
+    .heti-toggle:checked~label {
+        border-radius: 1rem 1rem 0 0 ;
     }
 
     #heti-menu button {
