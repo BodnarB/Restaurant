@@ -437,7 +437,9 @@ select {
 }
 
 .etlap-kategoria {
-    display: none;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.2s linear;
 }
 
 .etlap-kategoria>p {
@@ -446,7 +448,8 @@ select {
 }
 
 .etlap-toggle:checked+.etlap-kategoria {
-    display: block;
+    position: relative;
+    opacity: 1;
 }
 
 .etlap-tetel {
