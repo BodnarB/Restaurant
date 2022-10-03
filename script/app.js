@@ -8,8 +8,8 @@ async function apiMenu() {
 
 function etlapUpdate() {
     let hetiMenuHTML = document.querySelector('.heti-menu')
-    let menuHTML = document.querySelector('.heti-menu-js')
-    for (let nap of menu) {
+    let sortedMenu = menu.sort((a,b)=> new Date(a.datum).getTime() - new Date(b.datum).getTime());
+    for (let nap of sortedMenu) {
         hetiMenuHTML.innerHTML += `
         <div class="${nap.nap} napi-menu">
             <h3>${nap.datum.replace(/-/g, '. ')}. ${nap.nap}</h3>
