@@ -8,7 +8,7 @@ async function apiMenu() {
 
 function etlapUpdate() {
     let hetiMenuHTML = document.querySelector('.heti-menu')
-    let sortedMenu = menu.sort((a,b)=> new Date(a.datum).getTime() - new Date(b.datum).getTime());
+    let sortedMenu = menu.sort((a, b) => new Date(a.datum).getTime() - new Date(b.datum).getTime())
     for (let nap of sortedMenu) {
         hetiMenuHTML.innerHTML += `
         <div class="${nap.nap} napi-menu">
