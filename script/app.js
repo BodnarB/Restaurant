@@ -22,7 +22,7 @@ function etlapUpdate() {
             </div>
             <div class="napi-menu-tetel">
                 <div class="nev-ar"><label for="${nap.nap}-foetel">${nap.foetelNev}</label>
-                    <p>${nap.foetelAr}</p>
+                    <p>${nap.foetelAr} Ft</p>
                 </div>
                 <div class="input-db"><input type="number" name="${nap.nap}-foetel" id="${nap.nap}-foetel" min="1"
                         max="5">db
