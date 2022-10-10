@@ -22,7 +22,7 @@ function napValue() {
 
 
 async function fetchEtlap() {
-    const response = await fetch('/data/menu.json')
+    const response = await fetch('./data/menu.json')
     const etlap = await response.json()
     console.log(etlap) //////////////////////////////////////////////////////////////////
     taroltNapok = []
@@ -47,7 +47,7 @@ async function fetchEtlap() {
     for (let delBtn of document.querySelectorAll('.food-del')) {
         delBtn.addEventListener('click', async function (event) {
             let idx = event.target.id
-            const response = await fetch(`/data/menu.json/${idx}`, {
+            const response = await fetch(`./data/menu.json/${idx}`, {
                 method: "delete"
             })
             if (!response.ok) {
@@ -68,7 +68,7 @@ async function addToMenu(event) {
     levesNev = levesNev.value
     levesAr = levesAr.value
 
-    const response = await fetch('/data/menu.json')
+    const response = await fetch('./data/menu.json')
     const etlap = await response.json()
     const napok = etlap.find(({ nap }) => nap === newNap)
     console.log(napok, nap)
