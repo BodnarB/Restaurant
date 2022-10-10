@@ -71,11 +71,12 @@ async function addToMenu(event) {
     const response = await fetch('./data/menu.json')
     const etlap = await response.json()
     const napok = etlap.find(({ nap }) => nap === newNap)
-    console.log(napok, nap)
+    console.log(napok.datum)
 
 
     if (taroltNapok.includes(newNap)) {
         console.log('van')
+        napok
         
     }
     else {

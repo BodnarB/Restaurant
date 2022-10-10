@@ -1,7 +1,7 @@
 let menu
 
 async function apiMenu() {
-    let response = await fetch('/data/menu.json')
+    let response = await fetch('./data/menu.json')
     menu = await response.json()
     etlapUpdate()
 }
