@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+ 
+    <link rel="stylesheet" href="./style/admincss.css">
+</head>
+
+<body>
+    <header>
+        <h1>Étlap frissítés</h1>
+        <a class="api-btn" href="/data/menu.json" target="_blank">API >>></a>
+    </header>
+    <form id="etlap-add">
+        <label for="">Dátum: <input name="datum" id="js-date" type="date"></label>
+        <div class="nap-div"><p>Nap:</p><p class="js-day">-</p></div>
+        <label for="">Leves név: <input id="js-soup" name="levesNev" type="text"></label>
+        <label for="">Leves ár: <input id="js-soup-price" name="levesAr" type="number"
+                placeholder="csak számot kell beírni"></label>
+        <label for="">Főétel név: <input id="js-main-name" name="foetelNev" type="text"></label>
+        <label for="">Főétel ár: <input id="js-main-price" type="number" name="foetelAr"
+                placeholder="csak számot kell beírni"></label>
+        <button class="submit-btn" type="submit">Beküldés</button>
+    </form>
+    <div class="current-menu"></div>
+    <script src="./script/admin.js"></script>
+</body>
+
+</html>

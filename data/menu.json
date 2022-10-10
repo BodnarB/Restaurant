@@ -1,1 +1,42 @@
-[{"nap":"Hétfő","datum":"2022-10-10","levesNev":"Halászlé harcsafilével","levesAr":"800","foetelNev":"Roston sült fogasfilé","foetelAr":"3500"},{"nap":"Kedd","datum":"2022-09-06","levesNev":"Halászlé harcsafilével","levesAr":"1340","foetelNev":"Grillezett szűzérmék","foetelAr":"2300"},{"nap":"Szerda","datum":"2022-09-07","levesNev":"Tárkonyos marharaguleves","levesAr":"1390","foetelNev":"Magvas subába bújtatott pulykamell","foetelAr":"2340"},{"nap":"Csütörtök","datum":"2022-09-08","levesNev":"Csülkös babgulyás","levesAr":"1400","foetelNev":"Roston sült fogasfilé","foetelAr":"2500"},{"nap":"Péntek","datum":"2022-10-07","levesNev":"Csülkös babgulyás","levesAr":"1400","foetelNev":"Grillezett szűzérmék","foetelAr":"2300"}]
+[
+    {
+        "nap": "Hétfő",
+        "datum": "2022-10-10",
+        "levesNev": "Halászlé harcsafilével",
+        "levesAr": "800",
+        "foetelNev": "Roston sült fogasfilé",
+        "foetelAr": "3500"
+    },
+    {
+        "nap": "Kedd",
+        "datum": "2022-10-11",
+        "levesNev": "Halászlé harcsafilével",
+        "levesAr": "1340",
+        "foetelNev": "Grillezett szűzérmék",
+        "foetelAr": "2300"
+    },
+    {
+        "nap": "Szerda",
+        "datum": "2022-10-12",
+        "levesNev": "Tárkonyos marharaguleves",
+        "levesAr": "1390",
+        "foetelNev": "Magvas subába bújtatott pulykamell",
+        "foetelAr": "2340"
+    },
+    {
+        "nap": "Csütörtök",
+        "datum": "2022-10-13",
+        "levesNev": "Csülkös babgulyás",
+        "levesAr": "1400",
+        "foetelNev": "Roston sült fogasfilé",
+        "foetelAr": "2500"
+    },
+    {
+        "nap": "Péntek",
+        "datum": "2022-10-14",
+        "levesNev": "Csülkös babgulyás",
+        "levesAr": "1400",
+        "foetelNev": "Grillezett szűzérmék",
+        "foetelAr": "2300"
+    }
+]
