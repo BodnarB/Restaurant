@@ -968,6 +968,16 @@ footer {
 
 @media (min-width: 992px) {
 
+    body {
+        background-color: var(--main-bg);
+    }
+
+    header {
+        max-width: 1300px;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+
     .mobil-kep-rolunk {
         display: none;
     }
