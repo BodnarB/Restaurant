@@ -36,3 +36,13 @@ function etlapUpdate() {
 }
 
 addEventListener('load', apiMenu)
+
+let arrow = document.querySelector(".js-forward")
+let arrowback = document.querySelector(".js-back")
+
+arrow.onclick = function () {
+    document.querySelector(".slide-container").scrollLeft += 400
+}
+arrowback.onclick = function () {
+    document.querySelector(".slide-container").scrollLeft -= 400
+}
