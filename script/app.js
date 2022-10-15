@@ -1,7 +1,7 @@
 let menu
 
 async function apiMenu() {
-    let response = await fetch('https://bodnarb.eu-4.evennode.com/admin')
+    let response = await fetch('https://bodnarb.eu-4.evennode.com/')
     menu = await response.json()
     etlapUpdate()
 }
