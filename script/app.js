@@ -1,10 +1,19 @@
 let menu
+let weeklyMenu
+
 
 async function apiMenu() {
-    let response = await fetch('https://bodnarb.eu-4.evennode.com/')
+    let response = await fetch('https://modern-crow-sombrero.cyclic.app')
     menu = await response.json()
     etlapUpdate()
 }
+
+async function apiWeeklyMenu() {
+    console.log('teszt')
+
+}
+
+document.querySelector('.test-btn').addEventListener('click', () => { apiWeeklyMenu() })
 
 function etlapUpdate() {
     let hetiMenuHTML = document.querySelector('.heti-menu')
