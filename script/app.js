@@ -8,12 +8,6 @@ async function apiMenu() {
     etlapUpdate()
 }
 
-async function apiWeeklyMenu() {
-    console.log('teszt')
-
-}
-
-document.querySelector('.test-btn').addEventListener('click', () => { apiWeeklyMenu() })
 
 function etlapUpdate() {
     let hetiMenuHTML = document.querySelector('.heti-menu')
